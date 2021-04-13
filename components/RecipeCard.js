@@ -45,18 +45,19 @@ const RecipeCard = ({ recipe }) => {
           text-transform: uppercase;
         }
         .info p {
+          font-size: 1.2rem;
           margin: 0;
           color: #777;
         }
         .actions {
-          margin-top: 20px;
           display: flex;
           justify-content: flex-end;
         }
         .actions a {
           color: #fff;
-          background: #f01b29;
-          padding: 16px 24px;
+          font-size: 1.1rem;
+          background: #00994d;
+          padding: 10px 18px;
           text-decoration: none;
         }
       `}</style>
