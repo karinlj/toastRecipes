@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Layout({ children }) {
   return (
@@ -7,8 +7,8 @@ export default function Layout({ children }) {
         <Link href="/">
           <a>
             <h1>
-              <span>Just Add</span>
-              <span>Marmite</span>
+              <span>Toast</span>
+              <span>Recipes</span>
             </h1>
             <h2>Spread The Joy</h2>
           </a>
@@ -16,12 +16,13 @@ export default function Layout({ children }) {
       </header>
 
       <div className="page-content">
-        { children }
+        {/* whatever page comp we are viewing */}
+        {children}
       </div>
 
       <footer>
-        <p>Copyright 2021 Just Add Marmite :)</p>
+        <p>Copyright 2021 Toast Recipes</p>
       </footer>
     </div>
-  )
+  );
 }
