@@ -42,7 +42,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: { recipe: items[0] },
     //after what time (at most) in seconds next.js will check for content updates, but only after revisit on page
-    revalidate: 3,
+    revalidate: 1,
   };
 };
 
