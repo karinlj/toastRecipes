@@ -22,7 +22,7 @@ export const getStaticPaths = async () => {
   return {
     paths: paths,
     //show 404 instead of fallback page
-    fallback: false,
+    fallback: true,
     //paths: [{ params: { slug: "" } }, {}],
   };
 };
