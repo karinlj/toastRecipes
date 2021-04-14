@@ -1,9 +1,38 @@
-This is the Next.js starter site (and course files) for the Next.js & Contentful tutorial by the Net Ninja.
+# Next.js project 2021
 
-## Getting Started
+### Description
 
-To use the starter project, run the following in a terminal:
+Recipe project in progress using Next.js and Contentful.
 
-```bash
-npx create-next-app [your-site-name] -e https://github.com/iamshaunjp/next-contentful/tree/lesson-1-starter-site
-```
+![Screenshot](/assets/screenshot.jpg?raw=true "Screenshot")
+
+### Prerequisites
+
+NodeJS
+
+### Installation
+
+To clone
+
+`git clone https://github.com/karinlj/toastRecipes.git`
+
+To install
+
+`npm install`
+
+To run
+
+`npm run dev`
+
+### Built With
+
+- Next.js
+- Contentful
+
+### Author
+
+- **Karin Ljunggren** - [karinlj](https://github.com/karinlj)
+
+### Acknowledgements
+
+Thank's to [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
