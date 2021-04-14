@@ -1,6 +1,7 @@
 import { client } from "../../client";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import Image from "next/image";
+import Skeleton from "../../components/Skeleton";
 
 //getStaticPaths-func
 //get paths
@@ -48,6 +49,9 @@ export const getStaticProps = async ({ params }) => {
 
 const RecipeDetails = ({ recipe }) => {
   console.log("recipe", recipe);
+  if (!recipe) {
+    return <Skeleton />;
+  }
   const {
     featuredImage,
     title,
