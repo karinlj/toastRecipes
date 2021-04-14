@@ -21,7 +21,7 @@ export const getStaticPaths = async () => {
   //array of path-objects that next.js will use to build the static pages
   return {
     paths: paths,
-    //show 404 instead of fallback page
+    //false = show 404 instead of fallback page
     fallback: true,
     //paths: [{ params: { slug: "" } }, {}],
   };
