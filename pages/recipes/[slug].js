@@ -39,6 +39,16 @@ export const getStaticProps = async ({ params }) => {
     //the field we want
     "fields.slug": params.slug,
   });
+
+  //if we did not get the data (items) because the slug does not exist
+  if (!items.length) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
   //return 1st item
   return {
     props: { recipe: items[0] },
