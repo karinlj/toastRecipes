@@ -4,7 +4,7 @@
 
 Recipe project in progress using Next.js and Contentful.
 
-![Screenshot](/assets/screenshot.jpg?raw=true "Screenshot")
+![Screenshot](assets/screenshot.jpg?raw=true "Screenshot")
 
 ### Prerequisites
 
