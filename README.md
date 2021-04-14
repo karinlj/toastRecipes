@@ -4,7 +4,7 @@
 
 Recipe project in progress using Next.js and Contentful.
 
-![Screenshot](/assets/screenshot.jpg?raw=true "Screenshot")
+![Screenshot 2021-04-14 190742](https://user-images.githubusercontent.com/20776888/114753109-5fce4000-9d57-11eb-90ff-889f143ec306.jpg)
 
 ### Prerequisites
 
